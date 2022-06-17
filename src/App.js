@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootswatch/dist/lux/bootstrap.css';
 
 function App() {
   return (
