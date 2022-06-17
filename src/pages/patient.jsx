@@ -1,7 +1,6 @@
 import React, { Component, useEffect, useState } from "react";
 import _ from "lodash";
-import "./patient.css";
-
+import "../styles/patient.css";
 import "bootswatch/dist/lux/bootstrap.css";
 
 import patientImage from "../images/patientImage.jpg";

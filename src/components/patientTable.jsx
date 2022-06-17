@@ -86,8 +86,9 @@ function PatientTable() {
         {patients.map((patient, index) => {
           return (
             <tr
+              key={patient.id}
               className={index % 2 == 0 ? "table-active" : ""}
-              onClick={()=>redirectToPatient(patient.id)}
+              onClick={() => redirectToPatient(patient.id)}
             >
               <th scope="row">{patient.id}</th>
               <td>{patient.fName}</td>

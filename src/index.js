@@ -3,7 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
 import Navbar from "./components/navbar";
 import Patient from "./pages/patient";
-import 'bootswatch/dist/lux/bootstrap.css';
+import Login from "./pages/login";
+
+import "bootswatch/dist/lux/bootstrap.css";
 
 export default function App() {
   return (
@@ -14,9 +16,7 @@ export default function App() {
           <Route path="/">
             <Route index element={<Home />} />
             <Route path="/patient/:id" element={<Patient />} />
-            {/* <Route path="blogs" element={<Blogs />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<NoPage />} /> */}
+            <Route path="/login" element={<Login />} />
           </Route>
         </Routes>
       </BrowserRouter>
