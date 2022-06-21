@@ -1,0 +1,15 @@
+.login-box{
+    margin:150px auto;
+    padding: 50px;
+    height: 450px;
+    width: 600px;
+    align-self: center;
+    background-color: white;
+}
+
+.outer-div{
+    /* background-color: aqua; */
+    background-color: rgba(43, 0, 255, 0.503);
+    height: 750px;
+    padding: 20px;
+}
